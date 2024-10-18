@@ -85,8 +85,15 @@ header nav ul li a{
 div .reverse{
     flex-direction: row-reverse;
 }
+
+div .debug .grey{
+    display: flex;
+}
+
 .big-box{
-    width: 700px;
+    margin: 0 auto;
+    margin-top: 60px;
+    width: 650px;
     height: 500px;
     background-color: green;
     border: 2px dotted black;
