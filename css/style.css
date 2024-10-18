@@ -7,6 +7,7 @@
 
 .debug{
     max-width: 1700px;
+    padding: auto;
     background-color: aquamarine;
 }
 
@@ -53,6 +54,7 @@ header nav ul li a{
 
 .debug .jumbo{
     margin: 30px;
+    padding: 10px;
     display: flex;
     justify-content: center;
     padding-bottom: 30px;
@@ -80,6 +82,7 @@ header nav ul li a{
 
 .grey{
     background-color: rgb(197, 190, 190);
+    padding-bottom: 10px;
 }
 
 div .reverse{
@@ -93,12 +96,47 @@ div .debug .grey{
 .big-box{
     margin: 0 auto;
     margin-top: 60px;
+    margin-bottom: 30px;
     width: 650px;
     height: 500px;
     background-color: green;
     border: 2px dotted black;
 }
 
-.black{
-    background-color: rgb(35, 39, 42);
+footer{
+    background-color: rgb(35, 39, 42);;
+}
+.container-black{
+    display: flex;
+    justify-content: center;
+    max-width: 1700px;
+    padding-top: 5px;
+    padding-bottom: 25px;
+}
+
+.col1{
+    width: 250px;
+    height: 400px;
+    background-color: salmon;
+    border: 2px dotted black;
+}
+
+.col{
+    width: 150px;
+    height: 400px;
+    background-color: rgb(13, 100, 100);
+    border: 2px dotted white;
+}
+
+hr{
+    color: white;
+}
+
+.footercont{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    height: 50px;
+    background-color: aqua;
 }
