@@ -78,11 +78,10 @@ header nav ul li a{
     border: 2px dotted black;
 }
 
-div .debug .grey{
-    background-color: rgb(113, 105, 105);
-    margin-top: 60px;
+.grey{
+    background-color: rgb(197, 190, 190);
 }
 
-.row .reverse{
+div .reverse{
     flex-direction: row-reverse;
 }
