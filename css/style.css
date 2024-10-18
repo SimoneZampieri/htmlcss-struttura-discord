@@ -60,10 +60,11 @@ header nav ul li a{
 .row{
     display: flex;
     justify-content: center;
+    margin-top: 30px;
 }
 
 .row .main{
-    width: 450px;
+    width: 500px;
     height: 350px;
     background-color: blue;
     border: 2px dotted black;
@@ -74,4 +75,9 @@ header nav ul li a{
     height: 350px;
     background-color: palevioletred;
     border: 2px dotted black;
+}
+
+.debug .grey{
+    background-color: rgb(113, 105, 105);
+    margin-top: 30px;
 }
