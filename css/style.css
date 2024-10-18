@@ -98,3 +98,7 @@ div .debug .grey{
     background-color: green;
     border: 2px dotted black;
 }
+
+.black{
+    background-color: rgb(35, 39, 42);
+}
